@@ -19,13 +19,19 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 688px) {
+    .conteudo {
+        justify-content: center;
+    }
+
     .github-background {
         height: 20vh;
     }
 
     .search {
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .info {
@@ -38,7 +44,7 @@
     }
 }
 
-@media screen and (min-width: 686px) {
+@media screen and (min-width: 689px) {
     .info {
         width: 60%;
         margin-right: 90px;

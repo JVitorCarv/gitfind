@@ -17,7 +17,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 688px) {
     .repository-item-list {
         margin-left: 20px;
     }
