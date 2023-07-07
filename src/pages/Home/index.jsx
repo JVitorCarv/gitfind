@@ -51,7 +51,7 @@ function App() {
             <Input value={user} onChange={setUser}/>
             <SearchButton title="Buscar" onClick={handleGetData}/>
           </div>
-          {currentUser === null ? '' : <Profile user={currentUser}/>}
+          {currentUser === null ? '' : <><Profile user={currentUser}/><hr/></>}
           {repositoryList === null ? '' : <RepositoryList repositories={repositoryList}/>}
         </div>
       </div>

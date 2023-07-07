@@ -7,23 +7,48 @@
 }
 
 .github-background {
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     left: 0;
     z-index: 0;
 }
 
 .info {
-    width: 60%;
-    margin-right: 90px;
-    margin-top: 40px;
     color: white;
     font-family: 'Roboto', 'Arial';
     z-index: 1;
 }
 
+@media screen and (max-width: 686px) {
+    .github-background {
+        height: 20vh;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .info {
+        width: auto;
+        margin-top: 40px;
+    }
+
+    hr {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 686px) {
+    .info {
+        width: 60%;
+        margin-right: 90px;
+        margin-top: 40px;
+    }
+}
+
 .search {
     display: flex;
+    flex-wrap: wrap;
     row-gap: 10px;
 }
 

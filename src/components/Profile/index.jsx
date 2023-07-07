@@ -6,13 +6,12 @@ const Profile = ({user}) => {
         <>
             <div className='perfil'>
                 <ProfilePicture src={user.avatar_url}/>
-                <div>
+                <div className='profile-text'>
                     <h3>{user.name}</h3>
                     <span>@{user.login}</span>
                     <p>{user.bio}</p>
                 </div>
             </div>
-            <hr/>
         </>
     )
 }

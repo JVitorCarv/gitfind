@@ -4,8 +4,12 @@ input {
     background: transparent;
     font-size: 18px;
     padding: 10px;
-    min-width: 250px;
     width: 70%;
-    margin-right: 12px;
     color: white;
+}
+
+@media screen and (min-width: 372px) {
+    input {
+        margin-right: 12px;
+    }
 }
