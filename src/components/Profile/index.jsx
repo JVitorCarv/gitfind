@@ -5,11 +5,13 @@ const Profile = ({user}) => {
     return (
         <>
             <div className='perfil'>
-                <ProfilePicture src={user.avatar_url}/>
+                <ProfilePicture user={user}/>
                 <div className='profile-text'>
-                    <h3>{user.name}</h3>
-                    <span>@{user.login}</span>
-                    <p>{user.bio}</p>
+                    <a target='_blank' rel="noreferrer" href={`https://github.com/${user.login}`}>
+                        <h3>{user.name}</h3>
+                        <span>@{user.login}</span>
+                        <p>{user.bio}</p>
+                    </a>
                 </div>
             </div>
         </>

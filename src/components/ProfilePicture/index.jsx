@@ -1,8 +1,10 @@
 import './styles.css'
 
-const ProfilePicture = ({src}) => {
+const ProfilePicture = ({user}) => {
     return (
-        <img src={src} className="profile" alt="Profile picture" />
+        <a target='_blank' rel="noreferrer" href={`https://github.com/${user.login}`}>
+            <img src={user.avatar_url} className="profile" alt="Profile picture" />
+        </a>
     )
 }
 

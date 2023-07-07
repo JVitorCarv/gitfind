@@ -12,3 +12,9 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 686px){
+    button {
+        margin-top: 10px;
+    }
+}

@@ -22,6 +22,11 @@
     margin-top: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 @media screen and (max-width: 686px) {
     .perfil {
         justify-content: center;
@@ -44,6 +49,10 @@
     
     .perfil span {
         margin-top: 20px;
+        width: 100%;
+    }
+
+    .perfil p {
         width: 100%;
     }
 }
