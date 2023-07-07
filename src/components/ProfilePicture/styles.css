@@ -3,16 +3,15 @@
     height: 128px;
     width: 128px;
     border: 4px solid #e5e5e5;
-
 }
 
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 687px) {
     .profile {
         margin-right: 0;
     }
 }
 
-@media screen and (min-width: 686px) {
+@media screen and (min-width: 689px) {
     .profile {
         margin-right: 32px;
     }
