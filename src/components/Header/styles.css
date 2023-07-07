@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    height: 52px;
+    width: 100%;
+
+    background-color: #2D333B;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter', 'Roboto', 'Arial';
+    color: white;
+}

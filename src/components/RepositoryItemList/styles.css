@@ -1,0 +1,18 @@
+.repository-item-list {
+    margin: 24px 0;
+}
+
+.repository-item-list strong {
+    color: #539BF5;
+    font-size: 24px;
+}
+
+.repository-item-list p {
+    color: #999999;
+    font-size: 12px;
+    margin: 24px 0;
+}
+
+.repository-item-list a {
+    text-decoration: none;
+}
